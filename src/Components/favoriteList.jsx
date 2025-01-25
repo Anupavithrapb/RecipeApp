@@ -1,24 +1,4 @@
-// import React from 'react';
-// import { useSelector } from 'react-redux';
 
-// const FavoritesList = () => {
-//   const favorites = useSelector((state) => state.favorites.favorites);
-
-//   return (
-//     <div className="favorites-list">
-//       <h2>Favorite Recipes</h2>
-//       {favorites.map((recipe, index) => (
-//         <div key={index} className="favorite-card">
-//           <h3>{recipe.label}</h3>
-//           <img src={recipe.image} alt={recipe.label} />
-//           <p>{recipe.source}</p>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default FavoritesList;
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromFavorites } from './Redux/actions/recipeActions';

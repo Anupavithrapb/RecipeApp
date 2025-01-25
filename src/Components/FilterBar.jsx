@@ -23,10 +23,9 @@ const FilterBar = () => {
     };
     setActiveFilters(newFilters);
     
-    // If all filters are empty, fetch all recipes
     const hasActiveFilters = Object.values(newFilters).some(filter => filter !== '');
     if (!hasActiveFilters) {
-      dispatch(fetchRecipes('pizza')); // Reset to default recipes
+      dispatch(fetchRecipes('pizza')); 
     } else {
       dispatch(fetchRecipes('', newFilters));
     }
@@ -38,7 +37,7 @@ const FilterBar = () => {
       diet: '',
       cuisine: ''
     });
-    dispatch(fetchRecipes('pizza')); // Reset to default recipes
+    dispatch(fetchRecipes('pizza')); 
   };
 
   return (

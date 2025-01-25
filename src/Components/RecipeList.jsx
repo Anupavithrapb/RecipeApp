@@ -1,39 +1,4 @@
-// // import React from 'react';
-// // import { useSelector } from 'react-redux';
-// // import RecipeCard from './RecipeCard';
 
-// // const RecipeList = () => {
-// //   const recipes = useSelector((state) => state.recipes.recipes);
-
-// //   return (
-// //     <div className="recipe-list">
-// //       {recipes.map((recipe, index) => (
-// //         <RecipeCard key={index} recipe={recipe.recipe} />
-// //       ))}
-// //     </div>
-// //   );
-// // };
-
-// // export default RecipeList;
-
-// import React from 'react';
-// import { useSelector } from 'react-redux';
-// import RecipeCard from './RecipeCard';
-
-// const RecipeList = () => {
-//   // Use useSelector to access the recipes state
-//   const recipes = useSelector((state) => state.recipes.recipes);
-
-//   return (
-//     <div className="recipe-list">
-//       {recipes.map((recipe, index) => (
-//         <RecipeCard key={index} recipe={recipe.recipe} />
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default RecipeList;
  
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';

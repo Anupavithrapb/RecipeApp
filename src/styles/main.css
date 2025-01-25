@@ -1,4 +1,4 @@
-/* Modern Variables */
+
 :root {
   --primary-color: #ff6b6b;
   --secondary-color: #4ecdc4;
@@ -9,7 +9,6 @@
   --spacing: 1rem;
 }
 
-/* Base Styles */
 body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -26,7 +25,7 @@ body {
   min-height: 100vh;
 }
 
-/* Header Styles */
+
 .app-header {
   background-color: var(--card-bg);
   padding: calc(var(--spacing) * 2);
@@ -41,7 +40,7 @@ body {
   margin-bottom: 2rem;
 }
 
-/* Search Bar */
+
 .search-bar {
   margin: calc(var(--spacing) * 2) 0;
 }
@@ -72,7 +71,7 @@ body {
   transition: background-color 0.3s;
 }
 
-/* Filter Container */
+
 .filter-container {
   background-color: var(--card-bg);
   padding: calc(var(--spacing) * 2);
@@ -116,7 +115,6 @@ body {
   color: white;
 }
 
-/* Recipe Grid */
 .recipe-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -180,7 +178,6 @@ body {
   opacity: 0.9;
 }
 
-/* Recipe Details Overlay */
 .recipe-details-overlay {
   position: fixed;
   top: 0;
@@ -248,7 +245,6 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .search-bar form {
     flex-direction: column;
@@ -293,7 +289,6 @@ body {
   opacity: 0.9;
 }
 
-/* Layout for main content and sidebar */
 .content-wrapper {
   display: grid;
   grid-template-columns: 1fr 300px;
@@ -312,7 +307,6 @@ body {
   overflow-y: auto;
 }
 
-/* Favorites List Styles */
 .favorites-list {
   background-color: var(--card-bg);
   padding: var(--spacing);
